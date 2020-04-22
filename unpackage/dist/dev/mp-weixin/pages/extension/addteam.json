@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "加入我的战队",
+  "usingComponents": {
+    "auth-page": "/components/authorization-page"
+  }
+}

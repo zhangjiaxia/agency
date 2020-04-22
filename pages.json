@@ -1,0 +1,102 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/extension/index",
+			"style": {
+				"navigationBarTitleText": "推广"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "工作台"
+			}
+		},
+		
+		{
+			"path": "pages/extension/poster",
+			"style": {
+				"navigationBarTitleText": "商城推广海报"
+			}
+		},
+		{
+			"path": "pages/extension/addteam",
+			"style": {
+				"navigationBarTitleText": "加入我的战队"
+			}
+		},
+		{
+			"path": "pages/profit/index",
+			"style": {
+				"navigationBarTitleText": "我的收益",
+				"navigationBarBackgroundColor": "#5B8EF5",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/index/customer",
+			"style": {
+				"navigationBarTitleText": "联系客服"
+			}
+		},
+		{
+			"path": "pages/index/help",
+			"style": {
+				"navigationBarTitleText": "帮助&FAQ"
+			}
+		},
+		{
+			"path": "pages/index/usercenter",
+			"style": {
+				"navigationBarTitleText": "用户中心"
+			}
+		},
+		{
+			"path": "pages/team/index",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#EB5D32",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/workbench.png",
+				"selectedIconPath": "static/tabbar/workbenchactive.png",
+				"text": "工作台"
+			},
+			{
+				"pagePath": "pages/profit/index",
+				"iconPath": "static/tabbar/profit.png",
+				"selectedIconPath": "static/tabbar/profitactive.png",
+				"text": "我的收益"
+			}, {
+				"pagePath": "pages/team/index",
+				"iconPath": "static/tabbar/team.png",
+				"selectedIconPath": "static/tabbar/teamactive.png",
+				"text": "我的团队"
+			}, {
+				"pagePath": "pages/extension/index",
+				"iconPath": "static/tabbar/share.png",
+				"selectedIconPath": "static/tabbar/shareactive.png",
+				"text": "推广"
+			}
+		]
+	}
+}
